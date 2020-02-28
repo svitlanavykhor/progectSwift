@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240880BEF734D38022E11D7B /* Pods_terem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4426F8EA34C9FC9F209D71 /* Pods_terem.framework */; };
+		950BF48C23E361AA00A92615 /* ListTableViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950BF48B23E361AA00A92615 /* ListTableViewControler.swift */; };
+		953104E623DE3F2E006880CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953104E523DE3F2E006880CD /* AppDelegate.swift */; };
+		953104E823DE3F2E006880CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953104E723DE3F2E006880CD /* SceneDelegate.swift */; };
+		953104EA23DE3F2E006880CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953104E923DE3F2E006880CD /* ViewController.swift */; };
+		953104ED23DE3F2E006880CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953104EB23DE3F2E006880CD /* Main.storyboard */; };
+		953104EF23DE3F2F006880CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953104EE23DE3F2F006880CD /* Assets.xcassets */; };
+		953104F223DE3F2F006880CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953104F023DE3F2F006880CD /* LaunchScreen.storyboard */; };
+		9531D68E23F0C53F00B3E2AB /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9531D68D23F0C53F00B3E2AB /* Spinner.swift */; };
+		9531D69023F0C56E00B3E2AB /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9531D68F23F0C56E00B3E2AB /* Filtro.swift */; };
+		959B095123DE47E300BDEBB4 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B095023DE47E300BDEBB4 /* Geo.swift */; };
+		95A9395B23E4ACCC00DC35E7 /* PrototipoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9395A23E4ACCC00DC35E7 /* PrototipoTableViewCell.swift */; };
+		95B950942405687E006BB24B /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B950932405687E006BB24B /* webViewController.swift */; };
+		95B9509824056D44006BB24B /* detailMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B9509724056D44006BB24B /* detailMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		577A64F9D956D94C9C3246FB /* Pods-terem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terem.debug.xcconfig"; path = "Target Support Files/Pods-terem/Pods-terem.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4426F8EA34C9FC9F209D71 /* Pods_terem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_terem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950BF48B23E361AA00A92615 /* ListTableViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewControler.swift; sourceTree = "<group>"; };
+		953104E223DE3F2E006880CD /* terem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = terem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953104E523DE3F2E006880CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		953104E723DE3F2E006880CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		953104E923DE3F2E006880CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		953104EC23DE3F2E006880CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		953104EE23DE3F2F006880CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953104F123DE3F2F006880CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953104F323DE3F2F006880CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9531D68D23F0C53F00B3E2AB /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		9531D68F23F0C56E00B3E2AB /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
+		959B095023DE47E300BDEBB4 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		95A9395A23E4ACCC00DC35E7 /* PrototipoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototipoTableViewCell.swift; sourceTree = "<group>"; };
+		95B950932405687E006BB24B /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		95B9509724056D44006BB24B /* detailMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailMapViewController.swift; sourceTree = "<group>"; };
+		9B6FE6766CCF518133DB43D3 /* Pods-terem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terem.release.xcconfig"; path = "Target Support Files/Pods-terem/Pods-terem.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953104DF23DE3F2E006880CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240880BEF734D38022E11D7B /* Pods_terem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007BE70B98FCD5D822690D77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4426F8EA34C9FC9F209D71 /* Pods_terem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E97A788E7672A2D254706C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				577A64F9D956D94C9C3246FB /* Pods-terem.debug.xcconfig */,
+				9B6FE6766CCF518133DB43D3 /* Pods-terem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		953104D923DE3F2E006880CD = {
+			isa = PBXGroup;
+			children = (
+				953104E423DE3F2E006880CD /* terem */,
+				953104E323DE3F2E006880CD /* Products */,
+				3E97A788E7672A2D254706C5 /* Pods */,
+				007BE70B98FCD5D822690D77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		953104E323DE3F2E006880CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953104E223DE3F2E006880CD /* terem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953104E423DE3F2E006880CD /* terem */ = {
+			isa = PBXGroup;
+			children = (
+				953104EB23DE3F2E006880CD /* Main.storyboard */,
+				95B9509724056D44006BB24B /* detailMapViewController.swift */,
+				953104E923DE3F2E006880CD /* ViewController.swift */,
+				95B950932405687E006BB24B /* webViewController.swift */,
+				95A9395A23E4ACCC00DC35E7 /* PrototipoTableViewCell.swift */,
+				950BF48B23E361AA00A92615 /* ListTableViewControler.swift */,
+				953104E523DE3F2E006880CD /* AppDelegate.swift */,
+				953104E723DE3F2E006880CD /* SceneDelegate.swift */,
+				959B095023DE47E300BDEBB4 /* Geo.swift */,
+				953104EE23DE3F2F006880CD /* Assets.xcassets */,
+				953104F023DE3F2F006880CD /* LaunchScreen.storyboard */,
+				953104F323DE3F2F006880CD /* Info.plist */,
+				9531D68D23F0C53F00B3E2AB /* Spinner.swift */,
+				9531D68F23F0C56E00B3E2AB /* Filtro.swift */,
+			);
+			path = terem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953104E123DE3F2E006880CD /* terem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953104F623DE3F2F006880CD /* Build configuration list for PBXNativeTarget "terem" */;
+			buildPhases = (
+				42E3D559574BA0890BAEB0D1 /* [CP] Check Pods Manifest.lock */,
+				953104DE23DE3F2E006880CD /* Sources */,
+				953104DF23DE3F2E006880CD /* Frameworks */,
+				953104E023DE3F2E006880CD /* Resources */,
+				3FE292EA9FC0E51D829F9CF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = terem;
+			productName = terem;
+			productReference = 953104E223DE3F2E006880CD /* terem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953104DA23DE3F2E006880CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "svitlana vykhor";
+				TargetAttributes = {
+					953104E123DE3F2E006880CD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 953104DD23DE3F2E006880CD /* Build configuration list for PBXProject "terem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953104D923DE3F2E006880CD;
+			productRefGroup = 953104E323DE3F2E006880CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953104E123DE3F2E006880CD /* terem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953104E023DE3F2E006880CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953104F223DE3F2F006880CD /* LaunchScreen.storyboard in Resources */,
+				953104EF23DE3F2F006880CD /* Assets.xcassets in Resources */,
+				953104ED23DE3F2E006880CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FE292EA9FC0E51D829F9CF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-terem/Pods-terem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-terem/Pods-terem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-terem/Pods-terem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E3D559574BA0890BAEB0D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-terem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953104DE23DE3F2E006880CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953104EA23DE3F2E006880CD /* ViewController.swift in Sources */,
+				950BF48C23E361AA00A92615 /* ListTableViewControler.swift in Sources */,
+				95B9509824056D44006BB24B /* detailMapViewController.swift in Sources */,
+				95A9395B23E4ACCC00DC35E7 /* PrototipoTableViewCell.swift in Sources */,
+				9531D68E23F0C53F00B3E2AB /* Spinner.swift in Sources */,
+				953104E623DE3F2E006880CD /* AppDelegate.swift in Sources */,
+				95B950942405687E006BB24B /* webViewController.swift in Sources */,
+				953104E823DE3F2E006880CD /* SceneDelegate.swift in Sources */,
+				959B095123DE47E300BDEBB4 /* Geo.swift in Sources */,
+				9531D69023F0C56E00B3E2AB /* Filtro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		953104EB23DE3F2E006880CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953104EC23DE3F2E006880CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953104F023DE3F2F006880CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953104F123DE3F2F006880CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953104F423DE3F2F006880CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953104F523DE3F2F006880CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953104F723DE3F2F006880CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577A64F9D956D94C9C3246FB /* Pods-terem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mm.mm.terem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953104F823DE3F2F006880CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6FE6766CCF518133DB43D3 /* Pods-terem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mm.mm.terem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953104DD23DE3F2E006880CD /* Build configuration list for PBXProject "terem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953104F423DE3F2F006880CD /* Debug */,
+				953104F523DE3F2F006880CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953104F623DE3F2F006880CD /* Build configuration list for PBXNativeTarget "terem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953104F723DE3F2F006880CD /* Debug */,
+				953104F823DE3F2F006880CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953104DA23DE3F2E006880CD /* Project object */;
+}
